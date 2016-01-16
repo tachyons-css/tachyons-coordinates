@@ -1,6 +1,6 @@
 {
   "name": "tachyons-coordinates",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "style": "tachyons-coordinates.css",
   "homepage": "http://github.com/tachyons-css/tachyons-coordinates",
   "description": "Performance based css module.",
