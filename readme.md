@@ -1,4 +1,4 @@
-# tachyons-coordinates 2.0.1
+# tachyons-coordinates 2.1.2
 
 Performance based css module.
 

@@ -1,18 +1,17 @@
 {
   "name": "tachyons-coordinates",
-  "version": "2.1.1",
-  "style": "tachyons-coordinates.css",
-  "homepage": "http://github.com/tachyons-css/tachyons-coordinates",
+  "version": "2.1.2",
+  "style": "src/tachyons-coordinates.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/tachyons-css/tachyons-coordinates.git"
-  },
-  "bugs": {
-    "url": "https://github.com/tachyons-css/tachyons-coordinates/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-coordinates",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
