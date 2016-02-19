@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-634 | 116 | 128
+519 | 84 | 96
 ---|---|---
 bytes | selectors | declarations
 
@@ -75,10 +75,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .right-2 { right: 2rem; }
 .bottom-2 { bottom: 2rem; }
 .left-2 { left: 2rem; }
-.top-4 { top: 4rem; }
-.right-4 { right: 4rem; }
-.bottom-4 { bottom: 4rem; }
-.left-4 { left: 4rem; }
 .top--1 { top: -1rem; }
 .right--1 { right: -1rem; }
 .bottom--1 { bottom: -1rem; }
@@ -87,10 +83,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .right--2 { right: -2rem; }
 .bottom--2 { bottom: -2rem; }
 .left--2 { left: -2rem; }
-.top--4 { top: -4rem; }
-.right--4 { right: -4rem; }
-.bottom--4 { bottom: -4rem; }
-.left--4 { left: -4rem; }
 .pos-abs--fill { top: 0; right: 0; bottom: 0; left: 0; }
 @media screen and (min-width: 48em) {
  .top-0-ns { top: 0; }
@@ -105,10 +97,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .left-2-ns { left: 2rem; }
  .right-2-ns { right: 2rem; }
  .bottom-2-ns { bottom: 2rem; }
- .top-4-ns { top: 4rem; }
- .left-4-ns { left: 4rem; }
- .right-4-ns { right: 4rem; }
- .bottom-4-ns { bottom: 4rem; }
  .top--1-ns { top: -1rem; }
  .right--1-ns { right: -1rem; }
  .bottom--1-ns { bottom: -1rem; }
@@ -117,10 +105,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .right--2-ns { right: -2rem; }
  .bottom--2-ns { bottom: -2rem; }
  .left--2-ns { left: -2rem; }
- .top--4-ns { top: -4rem; }
- .right--4-ns { right: -4rem; }
- .bottom--4-ns { bottom: -4rem; }
- .left--4-ns { left: -4rem; }
  .pos-abs--fill-ns { top: 0; right: 0; bottom: 0; left: 0; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
@@ -136,10 +120,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .left-2-m { left: 2rem; }
  .right-2-m { right: 2rem; }
  .bottom-2-m { bottom: 2rem; }
- .top-4-m { top: 4rem; }
- .left-4-m { left: 4rem; }
- .right-4-m { right: 4rem; }
- .bottom-4-m { bottom: 4rem; }
  .top--1-m { top: -1rem; }
  .right--1-m { right: -1rem; }
  .bottom--1-m { bottom: -1rem; }
@@ -148,10 +128,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .right--2-m { right: -2rem; }
  .bottom--2-m { bottom: -2rem; }
  .left--2-m { left: -2rem; }
- .top--4-m { top: -4rem; }
- .right--4-m { right: -4rem; }
- .bottom--4-m { bottom: -4rem; }
- .left--4-m { left: -4rem; }
  .pos-abs--fill-m { top: 0; right: 0; bottom: 0; left: 0; }
 }
 @media screen and (min-width: 64em) {
@@ -167,10 +143,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .left-2-l { left: 2rem; }
  .right-2-l { right: 2rem; }
  .bottom-2-l { bottom: 2rem; }
- .top-4-l { top: 4rem; }
- .left-4-l { left: 4rem; }
- .right-4-l { right: 4rem; }
- .bottom-4-l { bottom: 4rem; }
  .top--1-l { top: -1rem; }
  .right--1-l { right: -1rem; }
  .bottom--1-l { bottom: -1rem; }
@@ -179,10 +151,6 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .right--2-l { right: -2rem; }
  .bottom--2-l { bottom: -2rem; }
  .left--2-l { left: -2rem; }
- .top--4-l { top: -4rem; }
- .right--4-l { right: -4rem; }
- .bottom--4-l { bottom: -4rem; }
- .left--4-l { left: -4rem; }
  .pos-abs--fill-l { top: 0; right: 0; bottom: 0; left: 0; }
 }
 ```
