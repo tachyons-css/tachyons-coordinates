@@ -1,10 +1,10 @@
-# tachyons-coordinates 2.1.2
+# tachyons-coordinates 2.2.0
 
 Performance based css module.
 
 #### Stats
 
-519 | 84 | 96
+520 | 84 | 96
 ---|---|---
 bytes | selectors | declarations
 
@@ -83,7 +83,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .right--2 { right: -2rem; }
 .bottom--2 { bottom: -2rem; }
 .left--2 { left: -2rem; }
-.pos-abs--fill { top: 0; right: 0; bottom: 0; left: 0; }
+.absolute--fill { top: 0; right: 0; bottom: 0; left: 0; }
 @media screen and (min-width: 48em) {
  .top-0-ns { top: 0; }
  .left-0-ns { left: 0; }
@@ -105,7 +105,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .right--2-ns { right: -2rem; }
  .bottom--2-ns { bottom: -2rem; }
  .left--2-ns { left: -2rem; }
- .pos-abs--fill-ns { top: 0; right: 0; bottom: 0; left: 0; }
+ .absolute--fill-ns { top: 0; right: 0; bottom: 0; left: 0; }
 }
 @media screen and (min-width: 48em) and (max-width: 64em) {
  .top-0-m { top: 0; }
@@ -128,7 +128,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .right--2-m { right: -2rem; }
  .bottom--2-m { bottom: -2rem; }
  .left--2-m { left: -2rem; }
- .pos-abs--fill-m { top: 0; right: 0; bottom: 0; left: 0; }
+ .absolute--fill-m { top: 0; right: 0; bottom: 0; left: 0; }
 }
 @media screen and (min-width: 64em) {
  .top-0-l { top: 0; }
@@ -151,7 +151,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .right--2-l { right: -2rem; }
  .bottom--2-l { bottom: -2rem; }
  .left--2-l { left: -2rem; }
- .pos-abs--fill-l { top: 0; right: 0; bottom: 0; left: 0; }
+ .absolute--fill-l { top: 0; right: 0; bottom: 0; left: 0; }
 }
 ```
 
