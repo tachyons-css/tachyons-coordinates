@@ -4,7 +4,7 @@ Performance based css module.
 
 #### Stats
 
-520 | 84 | 96
+519 | 84 | 96
 ---|---|---
 bytes | selectors | declarations
 
@@ -102,7 +102,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .bottom--2 { bottom: -2rem; }
 .left--2 { left: -2rem; }
 .absolute--fill { top: 0; right: 0; bottom: 0; left: 0; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .top-0-ns { top: 0; }
  .left-0-ns { left: 0; }
  .right-0-ns { right: 0; }
@@ -125,7 +125,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .left--2-ns { left: -2rem; }
  .absolute--fill-ns { top: 0; right: 0; bottom: 0; left: 0; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .top-0-m { top: 0; }
  .left-0-m { left: 0; }
  .right-0-m { right: 0; }
@@ -148,7 +148,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .left--2-m { left: -2rem; }
  .absolute--fill-m { top: 0; right: 0; bottom: 0; left: 0; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .top-0-l { top: 0; }
  .left-0-l { left: 0; }
  .right-0-l { right: 0; }
