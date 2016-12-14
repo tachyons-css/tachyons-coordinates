@@ -2,6 +2,7 @@
   "name": "tachyons-coordinates",
   "version": "4.0.3",
   "style": "src/tachyons-coordinates.css",
+  "main": "src/tachyons-coordinates.css",
   "description": "Performance based css module.",
   "keywords": [
     "tachyons",
